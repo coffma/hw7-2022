@@ -14,7 +14,7 @@ document.querySelector("#play").addEventListener("click", function() {
 	video.play();
 
 	sliderDiv = document.getElementById("volume");
-	sliderDiv.innerHTML = document.getElementById("slider").value;
+	sliderDiv.innerHTML = document.getElementById("slider").value + '%';
 });
 
 // pause the video (pause button)
